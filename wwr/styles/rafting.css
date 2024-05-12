@@ -66,14 +66,19 @@ a{
 .hero article{
     position: absolute;
     top: 250px;
-    max-width: 800px;
     padding: 1rem;
     background-color: var(--primary-color);
     text-align: center;
+    margin: 0 5rem;
 }
 
 .hero article img{
     float: right;
     width: 200px;
     height: auto;
+}
+
+footer p{
+    text-align: left;
+
 }
