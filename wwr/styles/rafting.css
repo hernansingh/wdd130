@@ -236,21 +236,21 @@ form{
 }
 
 .question-padding{
-display: flex;
-flex-direction: column;
-padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
 }
 
 label{
-font-size: 20px;
-padding-bottom: 0.4rem;
+    font-size: 20px;
+    padding-bottom: 0.4rem;
 }
 
 .question{
-font-size: 20px;
-padding: 0.5rem;
-border-radius: 0.5rem;
-font-family: 'Lato';
+    font-size: 20px;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-family: 'Lato';
 }
 
 .contact{
@@ -259,81 +259,87 @@ font-family: 'Lato';
 }
 
 .contact figure img{
-width: 100%;
+    width: 100%;
 }
 
 .image-hero-contact-us{
-width: 100%;
+    width: 100%;
 }
 
 .img-hero-about{
-width: 100%;
+    width: 100%;
 }
 
 .hdr-contact{
-margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .h1-contact{
-margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .h1-padding{
-padding: 3rem 0 0 0;
+    padding: 3rem 0 0 0;
 }
 
 .h2-contact{
-font-size: 3rem;
+    font-size: 3rem;
 }
 
 .p-contact{
-margin-top: 5px;
-margin-bottom: 2rem;
+    margin-top: 5px;
+    margin-bottom: 2rem;
 }
 
 .google-map{
-height: 20rem;
-width: 100%;
+    height: 20rem;
+    width: 100%;
 }
 
 .form-space{
-margin: 3rem auto 5rem auto;
+    margin: 3rem auto 5rem auto;
 }
 
 .display-section-grid{
-margin: 5rem 3rem;
-display: grid;
-grid-template-columns: 50% 50%;
+    margin: 5rem 3rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .purpose-page{
-width: 30rem;
-margin: 6rem auto 10rem auto;
-text-align: center;
+    width: 30rem;
+    margin: 6rem auto 10rem auto;
+    text-align: center;
 }
 
 .purpose-btn{
-font-size: 22px;
-padding: 1rem;
-background-color:rgb(38, 68, 93) ;
-color: #fff;
-border-radius: 0.5rem;
-border: 0px none;
-text-decoration: none;
+    font-size: 22px;
+    padding: 1rem;
+    background-color:rgb(38, 68, 93) ;
+    color: #fff;
+    border-radius: 0.5rem;
+    border: 0px none;
+    text-decoration: none;
 }
 
 .display-section-grid-2{
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-gap: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.display-section-grid-2 img{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .full-width-img{
-width: 100%;
+    width: 100%;
 }
 
 .employee-section{
-margin: 10rem 0;
+    margin: 10rem 0;
 }
 
 h4{
@@ -348,4 +354,26 @@ h4{
 .h1{
     width: 50rem;
     margin: 0 auto;
+}
+
+.btn-form{
+    background-color: #7493e0;
+}
+
+.purpose-btn{
+    background-color: #7493e0;
+}
+
+.purpose-p{
+    margin: 0 0 2.5rem 0;
+}
+
+.purpose-title{
+    margin: 0 0 1rem 0;
+}
+
+.title-form{
+    font-size: 2rem;
+    margin: 2rem 0 0 0;
+    text-align: center;
 }
